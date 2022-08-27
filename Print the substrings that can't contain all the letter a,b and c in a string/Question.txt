@@ -1,0 +1,41 @@
+
+Given a string S made of characters a,b, and c you need to find the number of substrings that do not contain all 
+the letters a,b and c. That  is the number of substrings that don not contain atleast one character a or b or c.
+
+Note that the sub-string should contain atleast one character, that is it should not be an empty string.
+
+Input1:
+ababa
+
+Ouput1:
+15
+
+Explanation1:
+[[], 'a', 'ab', 'b', 'aba', 'ba', 'a','abab', 'bab', 'ab', 'b', 'ababa', 'baba','aba', 'ba', 'a'] => subtrings of a string
+
+substrings that do not contain all 
+the letters a,b and c
+['a', 'ab', 'b', 'aba', 'ba', 'a','abab', 'bab', 'ab', 'b', 'ababa', 'baba','aba', 'ba', 'a'] 
+count value=15
+
+Input2:
+babacac
+
+Ouput2:
+19
+
+Explanation2:
+[[], 'b', 'ba', 'a', 'bab', 'ab', 'b', 'baba', 'aba', 'ba', 'a', 'babac', 'abac', 'bac', 'ac', 'c', 
+'babaca', 'abaca','baca', 'aca', 'ca', 'a', 'babacac', 'abacac', 'bacac', 'acac', 'cac', 'ac', 'c']
+ =>subtrings of a string
+
+substrings that do not contain all 
+the letters a,b and c
+['b', 'ba', 'a', 'bab', 'ab', 'b', 'baba', 'aba', 'ba', 'a','ac', 'c', 'aca', 'ca', 'a','acac', 'cac', 'ac', 'c']
+count value=19
+
+Input2:
+abc
+
+Ouput3:
+5
