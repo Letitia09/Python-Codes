@@ -1,0 +1,24 @@
+Write a program to analyze the characters in a given string Str and find N,
+the number of occurences of the characters having the highest ASCII value
+Then print the character having the lowest ASCII value in Str , N times.
+The string Str can contain either special characters or alphanumerics or
+a mixup of all. The string can be present in any case lowercase, uppercaseor both
+
+Input:
+ABOVEtheheight
+
+Output:
+From the sample input, given string Str is "ABOVEtheheight"
+ASCII value of A:65
+ASCII value of B:66
+ASCII value of O:65
+ASCII value of V:65
+ASCII value of E:65
+ASCII value of t:65
+ASCII value of h:65
+ASCII value of e:65
+ASCII value of i:65
+ASCII value of g:65
+ASCII value of h:65
+ASCII value of t:65
+
