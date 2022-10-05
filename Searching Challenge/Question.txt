@@ -1,0 +1,17 @@
+determine if a pair of adjacent even number exists anywhere in the string. 
+if a pair exists, return the string true, otherwise return false
+for example, if string is "f178svg3k19k46" then there are two even numbers at the end of the string,"46"
+so your program should return the string true.
+Another example:
+string="7r5gg812"
+pair is "812" (8 and 12) so your program should return the string true
+
+INPUT
+"3gy41d216"
+OUTPUT
+true
+
+INPUT
+"f09r27i8e67"
+OUTPUT
+false
