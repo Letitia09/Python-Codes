@@ -231,7 +231,7 @@ Output 2
 10. Ranveer has given you an integer N. If N is over, divide it by 2 to get N/2. If N is an odd number multiply it by 3 and add 1 to get 3N+1. Continue the process until the resultant integer becomes 1. Finally, print the length of the sequence.
 
 For example, if N-10, then 10-5-16-8-4-2-1. You should print 7.
-
+<pre>
 explanation:
 10 is even => 10/2 = 5 
 5 is odd => 3*5+1 = 16
@@ -241,5 +241,7 @@ explanation:
 2 is even => 2/2 = 1
 loop ends
 length = 7 (10-5-16-8-4-2-1)
+</pre>
 Input : the first line of input contains an integer N
+
 output : print the maximum sequence length from N to 1
